@@ -4,30 +4,29 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+    title: "RentChecker",
+    location: "Bartlett, Illinois",
+    period: "Jul 2025 - Aug 2025",
+    description: "Engineered a full-stack rent evaluator allowing users to enter a property and cross check their property worth with public records, Zillow API's and other public datasets to establish the estimated rent at this property. Features AI-Driven Profitability scoring by assessing factors such as property value, rental demand, taxes and vacancy rates. Constructed a subscription system with Stripe integration and implemented caching for frequently accessed data to optimize query response times.",
+    technologies: ["Node.js", "AWS", "React Native", "RDS (MySQL)", "Heroku", "Vercel", "Stripe"],
     github: "#",
     live: "#",
   },
   {
-    title: "Task Management App",
-    description: "Collaborative project management tool with real-time updates, kanban boards, and team analytics.",
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+    title: "GraphRAG Knowledge Graph Pipeline",
+    location: "Chicago, Illinois",
+    period: "Aug 2025 - Dec 2025",
+    description: "Built an end-to-end GraphRAG pipeline that transforms unstructured research papers into a searchable, queryable knowledge graph using Flink stream processing and Neo4j persistence. Deployed containerized REST microservices on AWS EKS and implemented APIs for natural-language querying, evidence retrieval, and interactive graph neighborhood exploration.",
+    technologies: ["Scala", "Apache Flink", "Neo4j", "Akka HTTP", "Docker", "AWS EKS"],
     github: "#",
     live: "#",
   },
   {
-    title: "AI Chat Application",
-    description: "Intelligent chatbot platform leveraging OpenAI's GPT models for customer support automation.",
-    technologies: ["Python", "FastAPI", "OpenAI", "Redis"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Real-time Dashboard",
-    description: "Data visualization dashboard with live metrics, custom charts, and automated reporting.",
-    technologies: ["Vue.js", "D3.js", "WebSocket", "AWS"],
+    title: "Ummah Awareness",
+    location: "University of Illinois-Urbana Champaign",
+    period: "October 2025",
+    description: "Engineered an interactive world visualization platform that highlighted crisis regions, integrated real-time news articles from verified sources, and provided secure donation opportunities to support underserved communities. Designed and implemented scalable REST APIs and backend services to handle real-time data ingestion, validation, and delivery to the 3D visualization creating a seamless UI Experience, winning 3rd place at competitive hackathon.",
+    technologies: ["Docker", "AWS", "React", "PostgreSQL", "JavaScript"],
     github: "#",
     live: "#",
   },
@@ -46,7 +45,7 @@ export const Projects = () => {
             transition={{ duration: 0.6, delay: index * 0.1 }}
             className="group bg-card border border-border rounded-lg p-6 card-hover"
           >
-            <div className="flex items-start justify-between mb-4">
+            <div className="flex items-start justify-between mb-2">
               <h3 className="text-xl font-bold group-hover:text-primary transition-colors">
                 {project.title}
               </h3>
@@ -67,7 +66,11 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4">{project.description}</p>
+            <div className="flex items-center gap-2 mb-4">
+              <span className="text-primary font-mono text-xs">{project.location}</span>
+              <span className="text-muted-foreground text-xs">• {project.period}</span>
+            </div>
+            <p className="text-muted-foreground mb-4 text-sm">{project.description}</p>
             <div className="flex flex-wrap gap-2">
               {project.technologies.map((tech) => (
                 <span

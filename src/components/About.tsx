@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { Section } from "./Section";
-import { Code, Coffee, Gamepad2, Music, BookOpen, Camera } from "lucide-react";
+import { Code, Coffee, Gamepad2, Dumbbell, BookOpen, Plane } from "lucide-react";
 
 const interests = [
-  { icon: Code, label: "Open Source", description: "Contributing to the community" },
+  { icon: Code, label: "Open Source", description: "Contributing to packages" },
   { icon: Coffee, label: "Coffee", description: "Fuel for productivity" },
-  { icon: Gamepad2, label: "Gaming", description: "Strategy and adventure games" },
-  { icon: Music, label: "Music", description: "Playing guitar and piano" },
-  { icon: BookOpen, label: "Reading", description: "Tech blogs and sci-fi novels" },
-  { icon: Camera, label: "Photography", description: "Capturing moments" },
+  { icon: Gamepad2, label: "Gaming", description: "Strategy games" },
+  { icon: Dumbbell, label: "Fitness", description: "Staying active" },
+  { icon: BookOpen, label: "Learning", description: "New technologies" },
+  { icon: Plane, label: "Travel", description: "Exploring new places" },
 ];
 
 export const About = () => {
@@ -22,15 +22,15 @@ export const About = () => {
           transition={{ duration: 0.6 }}
         >
           <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-            When I'm not writing code, you'll find me exploring new technologies, 
-            contributing to open-source projects, or diving deep into a good book. 
-            I believe in continuous learning and pushing myself beyond my comfort zone.
+            I'm a Computer Science student at UIC's Honors College with a passion for 
+            building full-stack applications that solve real problems. From mobile apps 
+            processing donations for nonprofits to AI-driven property analysis tools, 
+            I love tackling complex challenges.
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I'm passionate about building products that solve real problems and 
-            make people's lives easier. Whether it's a complex enterprise application 
-            or a simple utility tool, I approach every project with the same level 
-            of dedication and attention to detail.
+            When I'm not coding, you'll find me exploring new technologies, contributing 
+            to open-source projects, or competing in hackathons. I believe in continuous 
+            learning and pushing myself to grow both technically and personally.
           </p>
         </motion.div>
 

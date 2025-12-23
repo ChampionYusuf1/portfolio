@@ -1,17 +1,15 @@
 import { motion } from "framer-motion";
 import { Section } from "./Section";
-import { Mail, Phone, MapPin, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, Phone, Linkedin, Github } from "lucide-react";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "your.email@example.com", href: "mailto:your.email@example.com" },
-  { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
-  { icon: MapPin, label: "Location", value: "San Francisco, CA", href: null },
+  { icon: Mail, label: "Email", value: "yusufgdeveloper@gmail.com", href: "mailto:yusufgdeveloper@gmail.com" },
+  { icon: Phone, label: "Phone", value: "630-974-7009", href: "tel:+16309747009" },
 ];
 
 const socials = [
-  { icon: Github, label: "GitHub", href: "#" },
-  { icon: Linkedin, label: "LinkedIn", href: "#" },
-  { icon: Twitter, label: "Twitter", href: "#" },
+  { icon: Github, label: "GitHub", href: "https://github.com" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
 ];
 
 export const Contact = () => {
@@ -26,7 +24,8 @@ export const Contact = () => {
           className="text-lg text-muted-foreground mb-12"
         >
           I'm always open to discussing new opportunities, interesting projects, 
-          or potential collaborations. Feel free to reach out!
+          or potential collaborations. If you're interested in working together, 
+          please feel free to reach out!
         </motion.p>
 
         <motion.div
@@ -36,21 +35,17 @@ export const Contact = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="space-y-6 mb-12"
         >
-          {contactInfo.map((info, index) => (
+          {contactInfo.map((info) => (
             <div key={info.label} className="flex items-center justify-center gap-4">
               <info.icon className="w-6 h-6 text-primary" />
               <div className="text-left">
                 <span className="text-muted-foreground font-mono text-sm block">{info.label}</span>
-                {info.href ? (
-                  <a
-                    href={info.href}
-                    className="text-lg font-medium hover:text-primary transition-colors"
-                  >
-                    {info.value}
-                  </a>
-                ) : (
-                  <span className="text-lg font-medium">{info.value}</span>
-                )}
+                <a
+                  href={info.href}
+                  className="text-lg font-medium hover:text-primary transition-colors"
+                >
+                  {info.value}
+                </a>
               </div>
             </div>
           ))}
@@ -67,6 +62,8 @@ export const Contact = () => {
             <a
               key={social.label}
               href={social.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 bg-card border border-border rounded-lg text-muted-foreground hover:text-primary hover:border-primary transition-all"
               aria-label={social.label}
             >
