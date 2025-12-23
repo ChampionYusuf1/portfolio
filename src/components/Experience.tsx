@@ -10,12 +10,9 @@ const experiences = [
     location: "Schaumburg, Illinois",
     period: "May 2025 - August 2025",
     description: [
-      "Built a cross-platform React Native Tap-to-Pay application (iOS and Android) that enabled nonprofits to securely accept donations directly from mobile devices, eliminating the need for expensive kiosks or hardware.",
-      "Managed Jira/Git issues and time management of the offshore teams ensuring consistent production release dates.",
-      "Utilized AWS services, including RDS, SMS, CloudWatch, EC2, and Amplify to deploy and enhance production applications and use Stripe payments to process user transactions while storing financial reporting history.",
-      "Navigated Apple certification and security compliance processes to successfully deploy the app, ensuring alignment with App Store policies and also uploaded the app to the Google Play Store for distribution to clients.",
+      "At Donatefy, I worked on building mobile-first payment solutions for nonprofits, focusing on reliability, compliance, and ease of deployment. I owned large portions of a React Native Tap-to-Pay application from development through production release, collaborating with offshore teams to keep delivery on schedule. Beyond feature development, I gained hands-on experience deploying and maintaining cloud infrastructure, navigating App Store compliance, and supporting real payment flows in production—giving me a strong understanding of building and shipping fintech products end-to-end.",
     ],
-    technologies: ["React Native", "AWS", "Stripe", "Jira", "Git"],
+    technologies: ["React Native", "AWS", "Stripe", "Jira", "Git", "Node.js"],
   },
   {
     title: "Software Engineer",
@@ -23,10 +20,7 @@ const experiences = [
     location: "Chicago, Illinois",
     period: "Feb 2024 - May 2025",
     description: [
-      "Developed applications using Flutter, React, and Node.js, contributing to processing over 6 figures in transactions.",
-      "Resolved Stripe Tap-to-Pay integration issues in Flutter by debugging and fixing defects in a shared package, contributing a pull request following Agile principles that improved stability across multiple production applications.",
-      "Enhanced customer engagement by 28% by decreasing unnecessary amounts of API calls resulting in less await times and improved state management resulting in faster performance and a smoother UI experience.",
-      "Led development coordination/technical alignment, resulting in a ~20% improvement in sprint burndown efficiency.",
+      "As a Software Engineer at Americloud Tech, I contributed to the development and scaling of payment-driven applications used in production. I frequently worked across the stack, debugging complex payment integrations, improving system performance, and aligning closely with teammates to deliver features efficiently. In addition to hands-on development, I helped drive technical alignment across the team, improving sprint execution and strengthening overall development velocity. Not only was it neccesary to work with my teamates to deliver the product but I also had to work very closely our clientele to understand what their needs were and how we could best serve them.",
     ],
     technologies: ["Flutter", "React", "Node.js", "Stripe", "Agile"],
   },
@@ -36,12 +30,9 @@ const experiences = [
     location: "Chicago, Illinois",
     period: "Dec 2023 - Feb 2024",
     description: [
-      "Researched and Designed POC as requested by sales to further our product catalog and fulfill customer's needs.",
-      "Automated 50+ Appium test cases with around a 90% code coverage reducing 2+ hours of manual testing per build and strengthening the CI/CD pipeline while maintaining secure, clean databases.",
-      "Reverse-engineered an existing production system to document database/design schema for new onboarding team.",
-      "Met 100% of sprint deadlines in an Agile environment, supporting reliable release cycles and team productivity.",
+      "During my internship at Americloud Tech, I focused on strengthening the reliability and maintainability of existing systems. I supported new feature exploration through proof-of-concept development while also improving engineering workflows through test automation and documentation. By reverse-engineering production systems and enhancing test coverage, I helped reduce onboarding friction by verifying previous database schemas and system designs and improve release confidence in a fast-paced Agile environment.",
     ],
-    technologies: ["Appium", "CI/CD", "Agile", "Test Automation"],
+    technologies: ["Appium", "CI/CD", "Agile", "Test Automation", "Reverse Engineering"],
   },
 ];
 
