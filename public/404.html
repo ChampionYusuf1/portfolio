@@ -4,26 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url=/portfolio/index.html">
     <script>
-      // Redirect all 404s to index.html for SPA routing
-      // This ensures React Router can handle all routes
-      var basePath = '/portfolio';
-      var l = window.location;
-      var path = l.pathname;
-      
-      // Always redirect to index.html at the base path
-      // React Router with basename will handle the routing
-      var redirectPath = basePath + '/index.html';
-      
-      // Preserve query string and hash
-      if (l.search) redirectPath += l.search;
-      if (l.hash) redirectPath += l.hash;
-      
-      l.replace(l.protocol + '//' + l.host + redirectPath);
+      // Immediate redirect for better performance
+      window.location.replace('/portfolio/index.html' + window.location.search + window.location.hash);
     </script>
   </head>
   <body>
-    <p>Redirecting...</p>
+    <p>If you are not redirected, <a href="/portfolio/index.html">click here</a>.</p>
   </body>
 </html>
 
