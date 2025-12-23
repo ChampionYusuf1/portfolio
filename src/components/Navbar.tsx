@@ -34,7 +34,7 @@ export const Navbar = () => {
       <div className="container max-w-5xl">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="font-mono text-lg font-bold text-primary">
-            {"<YN />"}
+            {"<Yusuf Ghani />"}
           </a>
 
           {/* Desktop nav */}

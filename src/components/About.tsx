@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { Section } from "./Section";
-import { Code, Coffee, Gamepad2, Dumbbell, BookOpen, Plane } from "lucide-react";
+import { Code, Coffee, Activity, Dumbbell, BookOpen, Plane } from "lucide-react";
 
 const interests = [
-  { icon: Code, label: "Open Source", description: "Contributing to packages" },
-  { icon: Coffee, label: "Coffee", description: "Fuel for productivity" },
-  { icon: Gamepad2, label: "Gaming", description: "Strategy games" },
+  { icon: BookOpen, label: "Reading", description: "Psychology & mind" },
+  { icon: Activity, label: "Tennis", description: "On the court" },
   { icon: Dumbbell, label: "Fitness", description: "Staying active" },
-  { icon: BookOpen, label: "Learning", description: "New technologies" },
+  { icon: Code, label: "Learning", description: "New technologies" },
   { icon: Plane, label: "Travel", description: "Exploring new places" },
+  { icon: Coffee, label: "Chai", description: "Fuel for productivity" },
 ];
 
 export const About = () => {
@@ -28,9 +28,10 @@ export const About = () => {
             I love tackling complex challenges.
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            When I'm not coding, you'll find me exploring new technologies, contributing 
-            to open-source projects, or competing in hackathons. I believe in continuous 
-            learning and pushing myself to grow both technically and personally.
+            When I'm not coding, you'll find me on the tennis court improving my game,
+            or in my room studying new languages(and not coding languages). I love reading
+            books especially about psychology and the way the human mind works. I'm always looking
+            for good recommendations so please feel free to reach out!
           </p>
         </motion.div>
 

@@ -45,7 +45,7 @@ export const Hero = () => {
         >
           B.S. Computer Science student at UIC Honors College with experience building 
           full-stack applications, mobile apps, and cloud infrastructure. Passionate about 
-          creating scalable solutions that process real transactions and make an impact.
+          creating scalable solutions that can solve real world problems.
         </motion.p>
 
         <motion.div

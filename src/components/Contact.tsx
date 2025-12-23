@@ -8,8 +8,8 @@ const contactInfo = [
 ];
 
 const socials = [
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/ChampionYusuf1" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/yusuf-ghani-70238a242/" },
 ];
 
 export const Contact = () => {

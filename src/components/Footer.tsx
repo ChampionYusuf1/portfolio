@@ -4,7 +4,7 @@ export const Footer = () => {
       <div className="container max-w-5xl">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <p className="font-mono">
-            Designed & Built by <span className="text-primary">Your Name</span>
+            Designed & Built by <span className="text-primary">Yusuf Ghani</span>
           </p>
           <p className="font-mono">
             © {new Date().getFullYear()} All rights reserved.
