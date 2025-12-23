@@ -22,6 +22,15 @@ const projects = [
     live: "#",
   },
   {
+    title: "YOLO V8 Object Detection Model",
+    location: "Bartlett, Illinois",
+    period: "May 2024 - Jul 2024",
+    description: "Built a real-time object detection model using YOLOv8, leveraging a self-annotated dataset of over 1,000 images to detect ping-pong balls with 70% accuracy. Integrated OpenCV to streamline the model's functionality and developed a GUI allowing users to see and test the model in real-time.",
+    technologies: ["Python", "YOLOv8", "OpenCV", "Machine Learning"],
+    github: "#",
+    live: "#",
+  },
+  {
     title: "Ummah Awareness",
     location: "University of Illinois-Urbana Champaign",
     period: "October 2025",
