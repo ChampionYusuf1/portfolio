@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
+      // Redirect to the base path for SPA routing
+      var basePath = '/portfolio';
+      var path = window.location.pathname;
+      
+      // If we're not already at the base path, redirect there
+      if (!path.startsWith(basePath + '/') && path !== basePath) {
+        var newPath = basePath + (path === '/' ? '' : path);
+        window.location.replace(newPath + window.location.search + window.location.hash);
+      } else {
+        // If we're at the base path, just reload to let React Router handle it
+        window.location.reload();
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
+
