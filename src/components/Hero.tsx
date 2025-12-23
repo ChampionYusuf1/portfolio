@@ -25,7 +25,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4"
         >
-          <span className="text-gradient">Your Name</span>
+          <span className="text-gradient">Yusuf Ghani</span>
         </motion.h1>
         
         <motion.h2
@@ -43,9 +43,9 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed"
         >
-          I build exceptional digital experiences with clean code and modern technologies. 
-          Passionate about creating solutions that make a difference and pushing the 
-          boundaries of what's possible on the web.
+          B.S. Computer Science student at UIC Honors College with experience building 
+          full-stack applications, mobile apps, and cloud infrastructure. Passionate about 
+          creating scalable solutions that process real transactions and make an impact.
         </motion.p>
 
         <motion.div
