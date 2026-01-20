@@ -1,3 +1,5 @@
+import { FileText } from "lucide-react";
+
 export const Footer = () => {
   return (
     <footer className="py-8 border-t border-border">
@@ -6,9 +8,20 @@ export const Footer = () => {
           <p className="font-mono">
             Designed & Built by <span className="text-primary">Yusuf Ghani</span>
           </p>
-          <p className="font-mono">
-            © {new Date().getFullYear()} All rights reserved.
-          </p>
+          <div className="flex items-center gap-4">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
+            >
+              <FileText className="w-4 h-4" />
+              View Resume
+            </a>
+            <p className="font-mono">
+              © {new Date().getFullYear()} All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

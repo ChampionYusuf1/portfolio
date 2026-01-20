@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, FileText } from "lucide-react";
 
 const navItems = [
   { label: "Experience", href: "#experience" },
@@ -48,6 +48,15 @@ export const Navbar = () => {
                 {item.label}
               </a>
             ))}
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-sm px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors flex items-center gap-2"
+            >
+              <FileText className="w-4 h-4" />
+              Resume
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -78,6 +87,16 @@ export const Navbar = () => {
                 {item.label}
               </a>
             ))}
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+              className="block py-3 px-4 font-mono text-sm bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors flex items-center gap-2 mx-4 mt-2"
+            >
+              <FileText className="w-4 h-4" />
+              Resume
+            </a>
           </motion.div>
         )}
       </div>
