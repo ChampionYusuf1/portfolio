@@ -15,7 +15,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <span className="font-mono text-primary text-sm md:text-base tracking-wider mb-4 block">
-            Hello, I'm
+            Hey all, I'm
           </span>
         </motion.div>
         
@@ -34,7 +34,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-2xl md:text-3xl lg:text-4xl font-mono text-muted-foreground mb-8"
         >
-          Software Engineer
+          Developer
         </motion.h2>
         
         <motion.p
@@ -43,9 +43,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed"
         >
-          B.S. Computer Science student at UIC Honors College with experience building 
-          full-stack applications, mobile apps, and cloud infrastructure. Passionate about 
-          creating scalable solutions that can solve real world problems.
+          I'm a Software Engineer working on building enterprise-level applications that solve real-world problems. Check out some of my work below and reach out if you'd like to connect!
         </motion.p>
 
         <motion.div

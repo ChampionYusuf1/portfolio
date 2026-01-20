@@ -20,7 +20,7 @@ const experiences = [
     location: "Chicago, Illinois",
     period: "Feb 2024 - May 2025",
     description: [
-      "As a Software Engineer at Americloud Tech, I contributed to the development and scaling of payment-driven applications used in production. I frequently worked across the stack, debugging complex payment integrations, improving system performance, and aligning closely with teammates to deliver features efficiently. In addition to hands-on development, I helped drive technical alignment across the team, improving sprint execution and strengthening overall development velocity. Not only was it neccesary to work with my teamates to deliver the product but I also had to work very closely our clientele to understand what their needs were and how we could best serve them.",
+      "As a Software Engineer at Americloud Tech, I contributed to the development and scaling of payment-driven applications used in production processing over $1,000,000 in transactions. I frequently worked across the stack, debugging complex payment integrations, improving system performance, and aligning closely with teammates to deliver features efficiently. In addition to hands-on development, I helped drive technical alignment across the team, improving sprint execution and strengthening overall development velocity. Not only was it neccesary to work with my teamates to deliver the product but I also had to work very closely our clientele to understand what their needs were and how we could best serve them.",
     ],
     technologies: ["Flutter", "React", "Node.js", "Stripe", "Agile"],
   },
