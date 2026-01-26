@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, FileText } from "lucide-react";
+import resumePdf from "@/assets/yusufresume.pdf?url";
 
 const navItems = [
   { label: "Experience", href: "#experience" },
@@ -49,7 +50,7 @@ export const Navbar = () => {
               </a>
             ))}
             <a
-              href="/YG Resume.pdf"
+              href={resumePdf}
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-sm px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors flex items-center gap-2"
@@ -88,7 +89,7 @@ export const Navbar = () => {
               </a>
             ))}
             <a
-              href="/YG Resume.pdf"
+              href={resumePdf}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}

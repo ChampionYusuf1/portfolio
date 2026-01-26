@@ -1,4 +1,5 @@
 import { FileText } from "lucide-react";
+import resumePdf from "@/assets/yusufresume.pdf?url";
 
 export const Footer = () => {
   return (
@@ -10,7 +11,7 @@ export const Footer = () => {
           </p>
           <div className="flex items-center gap-4">
             <a
-              href="/YG Resume.pdf"
+              href={resumePdf}
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
