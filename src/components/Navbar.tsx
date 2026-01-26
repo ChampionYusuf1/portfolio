@@ -49,7 +49,7 @@ export const Navbar = () => {
               </a>
             ))}
             <a
-              href="/resume.pdf"
+              href="/YG Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-sm px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors flex items-center gap-2"
@@ -88,7 +88,7 @@ export const Navbar = () => {
               </a>
             ))}
             <a
-              href="/resume.pdf"
+              href="/YG Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}

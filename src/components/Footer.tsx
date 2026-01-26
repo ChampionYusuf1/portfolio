@@ -10,7 +10,7 @@ export const Footer = () => {
           </p>
           <div className="flex items-center gap-4">
             <a
-              href="/resume.pdf"
+              href="/YG Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
