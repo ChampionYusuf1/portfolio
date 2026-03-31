@@ -4,8 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
+// GitHub Pages project sites live at /<repo>/ — set VITE_BASE_PATH=/<repo>/ in CI so asset URLs (e.g. resume PDF) resolve correctly.
 export default defineConfig(({ mode }) => ({
-  base: "/",
+  base: process.env.VITE_BASE_PATH ?? "/",
   server: {
     host: "::",
     port: 8080,
