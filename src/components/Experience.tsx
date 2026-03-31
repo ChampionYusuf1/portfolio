@@ -40,8 +40,7 @@ const experiences = [
     location: "Chicago, Illinois",
     period: "May 2023 - August 2023",
     description: [
-      "Engineered a cloud-based POS and online food ordering platform integrated with Kitchen Display Systems (KDS) to automate real-time order routing, timing estimates, and queue management across 50+ restaurant clients.",
-      "Delivered an embeddable widget allowing restaurants to integrate online ordering directly into their existing websites, alongside an admin portal for dynamic menu management, prep time configuration, and reporting.",
+      "During my internship at UIS Consulting, I engineered a cloud-based POS and online food ordering platform integrated with Kitchen Display Systems (KDS) to automate real-time order routing, timing estimates, and queue management across 50+ restaurant clients. I also delivered an embeddable widget so restaurants could integrate online ordering into their existing websites, and built an admin portal for dynamic menu management, prep time configuration, and reporting.",
     ],
     technologies: ["Cloud", "Full-Stack", "JavaScript", "REST APIs"],
   },
