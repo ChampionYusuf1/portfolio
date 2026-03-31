@@ -1,5 +1,5 @@
 import { FileText } from "lucide-react";
-import resumePdf from "@/assets/BASEERESUME.pdf?url";
+import resumePdf from "@/assets/Base Resume.pdf?url";
 
 export const Footer = () => {
   return (
