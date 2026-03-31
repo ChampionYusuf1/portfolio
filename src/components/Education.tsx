@@ -8,7 +8,7 @@ const education = [
     institution: "University of Illinois at Chicago (Honors College)",
     location: "Chicago, Illinois",
     period: "Expected Graduation, May 2026",
-    gpa: "GPA 3.67",
+    gpa: "GPA 3.61",
     achievements: ["Dean's List", "Honors College"],
   },
 ];

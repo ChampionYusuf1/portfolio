@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, FileText } from "lucide-react";
-import resumePdf from "@/assets/yusufresume.pdf?url";
+import resumePdf from "@/assets/BASEERESUME.pdf?url";
 
 const navItems = [
   { label: "Experience", href: "#experience" },
